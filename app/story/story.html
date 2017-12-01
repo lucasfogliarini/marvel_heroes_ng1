@@ -1,7 +1,7 @@
 <h1>{{story.title}}</h1>
 <p>{{story.description}}</p>
 
-<div ng-repeat="character in story.characters">
+<div ng-repeat="character in storyCharacters">
   <label>{{character.name}}</label>
-  <img src="character.thumbnail" alt="thumbnail {{character.name}}"/>
+  <img src="{{character.thumbnail}}" alt="thumbnail {{character.name}}"/>
 </div>
