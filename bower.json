@@ -1,0 +1,12 @@
+{
+  "name": "marvel-story",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.6.6",
+    "angular-route": "~1.5.0"
+  }
+}

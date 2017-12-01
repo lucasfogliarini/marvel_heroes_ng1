@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="marvelStory">
+<head>
+  <meta charset="utf-8">
+  <title>Marvel Story</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#!/view1">view1</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+</body>
+</html>
