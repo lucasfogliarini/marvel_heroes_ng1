@@ -2,6 +2,9 @@
 <p>{{story.description}}</p>
 
 <div ng-repeat="character in storyCharacters">
+  <a ng-href="#!/story?characterId={{character.id}}">
   <label>{{character.name}}</label>
   <img src="{{character.thumbnail}}" alt="thumbnail {{character.name}}"/>
 </div>
+
+<label>{{story.attributionText}}</label>

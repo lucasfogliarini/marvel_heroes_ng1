@@ -2,9 +2,14 @@ angular.module('marvelStory', [
   'ngRoute'
 ])
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/stories/:id', {
+  $routeProvider
+  .when('/story', {
     templateUrl: '/story/story.html',
     controller: 'StoryController'
+  })
+  .when('/characters', {
+    templateUrl: '/characters/characters.html',
+    controller: 'CharactersController'
   }).otherwise({
       redirectTo: '/'
   });;
