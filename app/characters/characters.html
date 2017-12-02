@@ -1,6 +1,11 @@
-<div ng-repeat="character in characters">
-    <a href="#!/story?characterId={{character.id}}">
-      <label>{{character.name}}</label>
-      <img src="{{character.thumbnail}}" alt="thumbnail {{character.name}}"/>
+<div class="char" ng-repeat="character in characters">
+    <div class="char-image">
+        <a ng-href="#!/story?characterId={{character.id}}">
+           <div class="char-image-border"></div>
+           <img class="char-img" src="{{character.thumbnail}}" alt="{{character.name}}" title="{{character.name}}">
+        </a>
+    </div>
+    <a class="char-text" ng-href="#!/story?characterId={{character.id}}">
+       {{character.name}}
     </a>
 </div>

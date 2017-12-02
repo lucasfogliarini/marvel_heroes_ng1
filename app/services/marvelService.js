@@ -44,7 +44,7 @@ angular.module('marvelStory')
              id: char.id,
              name: char.name,
              //https://developer.marvel.com/documentation/images
-             thumbnail: char.thumbnail.path + '/portrait_xlarge.' + char.thumbnail.extension
+             thumbnail: char.thumbnail.path + '/standard_xlarge.' + char.thumbnail.extension
           });
         });
         return characters;
