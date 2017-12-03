@@ -10,7 +10,8 @@ angular.module('marvelHeroes', [
   .when('/characters', {
     templateUrl: '/characters/characters.html',
     controller: 'CharactersController'
-  }).otherwise({
+  })
+  .otherwise({
       redirectTo: '/'
   });;
 }])
