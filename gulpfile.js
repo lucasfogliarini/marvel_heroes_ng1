@@ -2,8 +2,13 @@ var gulp = require('gulp');
 var minify = require('gulp-minify');
 var concat = require('gulp-concat');
 var cleanCSS = require('gulp-clean-css');
+var del = require('del');
 
-gulp.task('build', ['dist:angular', 'dist:js', 'dist:css']);
+gulp.task('build', ['clean','dist:angular', 'dist:js', 'dist:css']);
+
+gulp.task('clean', function(){
+    return del('app/dist/**', { force: true });
+});
 
 gulp.task('dist:js', function () {
     return gulp.src('app/**/*.js')
