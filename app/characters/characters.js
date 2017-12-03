@@ -6,5 +6,5 @@ function CharactersController($scope, marvelService){
 
 CharactersController.$inject = ['$scope','marvelService'];
 
-angular.module('marvelStory')
+angular.module('marvelHeroes')
   .controller('CharactersController', CharactersController);

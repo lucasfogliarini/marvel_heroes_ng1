@@ -10,5 +10,5 @@ function StoryController($scope, marvelService, $routeParams){
 
 StoryController.$inject = ['$scope','marvelService','$routeParams'];
 
-angular.module('marvelStory')
+angular.module('marvelHeroes')
   .controller('StoryController', StoryController);

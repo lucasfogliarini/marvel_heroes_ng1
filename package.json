@@ -1,8 +1,8 @@
 {
-  "name": "marvel-story",
+  "name": "marvel_heroes",
   "version": "1.0.0",
   "description": "",
-  "repository": "github.com/lucasfogliarini/marvel-story",
+  "repository": "github.com/lucasfogliarini/marvel_heroes",
   "author": "Lucas Fogliarini",
   "devDependencies": {
     "angular": "^1.6.7",

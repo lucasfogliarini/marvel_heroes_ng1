@@ -1,7 +1,3 @@
-logs/*
-!.gitkeep
+app/dist/
 node_modules/
-tmp
-.DS_Store
-.idea
 package-lock.json

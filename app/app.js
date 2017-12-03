@@ -1,4 +1,4 @@
-angular.module('marvelStory', [
+angular.module('marvelHeroes', [
   'ngRoute'
 ])
 .config(['$routeProvider', function($routeProvider) {

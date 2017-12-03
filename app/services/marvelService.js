@@ -1,4 +1,4 @@
-angular.module('marvelStory')
+angular.module('marvelHeroes')
   .service('marvelService', ['$http', '$q', function($http, $q){
       let _marvelService = this;
       this.getRandomStory = function(characterId, maxRandom){
