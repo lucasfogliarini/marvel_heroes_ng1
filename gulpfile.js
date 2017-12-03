@@ -20,7 +20,7 @@ gulp.task('dist:angular', function () {
 });
 
 gulp.task('dist:css', function () {
-    return gulp.src('app/**/*.css')
+    return gulp.src('app/css/*.css')
         .pipe(concat('marvel-heroes.min.css'))
         .pipe(cleanCSS())
         .pipe(gulp.dest('app/dist/css/'));
