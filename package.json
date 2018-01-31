@@ -4,7 +4,7 @@
   "description": "",
   "repository": "github.com/lucasfogliarini/marvel_heroes",
   "author": "Lucas Fogliarini",
-  "devDependencies": {
+  "dependencies": {
     "angular": "^1.6.7",
     "angular-route": "^1.6.7",
     "del": "^3.0.0",
