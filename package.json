@@ -12,10 +12,10 @@
     "gulp-clean-css": "^3.9.0",
     "gulp-concat": "^2.6.1",
     "gulp-minify": "^2.1.0",
-    "http-server": "^0.9.0"
+    "node-static": "^0.7.10"
   },
   "scripts": {
     "prestart": "gulp build",
-    "start": "http-server -a localhost -p 8000 -c-1 ./app"
+    "start": "node server.js"
   }
 }
